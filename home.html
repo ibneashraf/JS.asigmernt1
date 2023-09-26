@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <button id="showDialog">Show Dialog</button>
+  <div class="modal" id="myModal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Custom Alert with Checkbox</h2>
+      <label for="customCheckbox">Check this box:</label>
+      <input type="checkbox" id="customCheckbox">
+      <button id="checkButton">Check</button>
+    </div>
+  </div>
+  <script>
+    // Get the modal and the button to open it
+var modal = document.getElementById("myModal");
+var btn = document.getElementById("showDialog");
+
+// Get the close button and the Check button within the modal
+var closeBtn = document.getElementsByClassName("close")[0];
+var checkButton = document.getElementById("checkButton");
+
+// When the user clicks the button, open the modal
+btn.onclick = function () {
+  modal.style.display = "block";
+};
+
+// When the user clicks the close button, close the modal
+closeBtn.onclick = function () {
+  modal.style.display = "none";
+};
+
+// When the user clicks the Check button within the modal
+checkButton.onclick = function () {
+  // Get the value of the checkbox
+  var checkbox = document.getElementById("customCheckbox");
+  var isChecked = checkbox.checked;
+
+  // Display a message based on whether the checkbox is checked
+  if (isChecked) {
+    alert("Checkbox is checked.");
+  } else {
+    alert("Checkbox is not checked.");
+  }
+};
+
+// When the user clicks anywhere outside the modal, close it
+window.onclick = function (event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+};
+
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
