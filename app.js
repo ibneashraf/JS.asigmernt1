@@ -1,58 +1,21 @@
-// // var myName = "My name is ibne Asraf"
+//Task 1
+var myName = "My name is ibne Asraf"
+alert(myName)
 
-// console.log("Hello... I can run JS through my web browser console" );
-// console.log(myName)
-// // 
-// var num witkout coting
-// // var num =10
-// // alert(num)
-// // console.log(num+5)
-// agr num ko cotation me rakhen to ab 5 string m convert hojae ga
-// // var num ="10"
-// // alert(num)
-// // console.log(num+5)
-// // 
-// agr string me likhen to (+) me value  plus nhi hogi
-// //  var num1 = "5";
-// //  var num2 = 3;
-// //  alert(num1+num2)
-//  agr string me likhen to (+) k ilawa (-.*./) me ok work krega
-//  var num1 = "5";
-//  var num2 = 3;
-//  alert(num1-num2)
-// (/):
-//  var num1 = "10";
-//  var num2 = 2;
-//  alert(num1/num2)
-// (*):
-//  var num1 = "5";
-//  var num2 = 3;
-//  alert(num1*num2)
+//Task 2
+var a ="Please enter a valid passward"
+alert(a)
 
-// is sign(%) ko Js me modulas signe krhtr hen
-//  var num1 = 20;
-//  var num2 = 5;
-//  alert(num1%num2)
- //var name illegal batter he
-//  var num="Ibne ashraf"
-//  var str= 10
+//Task 3
+var b =" Welcome to JS Land... \n Happy coding!"
+alert(b)
 
- // cal++ post increment
- var cal=20
- var cal2= ++cal;
- console.log(cal2)
+//Task 4
+var c = "Welcom to JS Land"
+var d = "Prevent this page from creating additional dialogs"
+alert(c)
+alert(d)
 
- var num=10
- var num1=20
-           11    + 20
- var num2= + +num + num1
- console.log(num2)
- console.log(num) // ab 11 ae ga qk niche  update ho chuka he
-
-// ++call pre increment
-// call-- post decrement
-// --call post decrement
-
-//  alert("Please enter a valid passward")
-//  alert("welcome to JS land \n Happy coding!")
-//  alert("welcome to JS code")
+//Task 5
+var e = "Hello I can run JS through my web browsers's console"
+console.log(e)
